@@ -1,0 +1,18 @@
+
+我的所有配置说明
+
+lisp  --
+
+	  init-packages     # 插件管理
+
+	  init-ui.el				# 视觉层配置
+
+	  init-better-default.el   	# 增强内置功能
+
+	  init-keybindings.el 	    # 快捷键绑定
+
+	  init-org.el				# Org 模式相关的全部设定
+	  
+	  custom.el					# 存放 使用编辑器接口产生的配置信息
+
+	  mode-manage 				# 外部插件集中管理
