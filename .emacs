@@ -88,3 +88,17 @@
 ;; install ac-js2
 
 (add-hook 'js2-mode-hook 'ac-js2-mode)
+
+;;快速打开配置文件
+
+(defun open-init-file ()
+  (interactive)
+  (find-file "~/.emacs")
+)
+
+;; 将函数绑定在F2
+
+(global-set-key (kbd "<f2>") 'open-init-file)
+
+;; 全局激活 company补全
+(global-company-mode 1)
