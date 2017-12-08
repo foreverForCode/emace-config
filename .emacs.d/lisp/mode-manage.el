@@ -34,6 +34,21 @@
 
 (add-hook 'js2-mode-hook 'ac-js2-mode)
 
+(load-theme 'monokai t)
+
+(require 'hungry-delete)
+
+(global-hungry-delete-mode)
+
+;; use smartparens-global-mode
+
+;;(require 'smartparens-config)
+
+;;(smartparens-global-mode t)
+
+(require 'nodejs-repl)
+
+
 
 
 (provide 'mode-manage)
