@@ -1,0 +1,8 @@
+ls
+gcc
+mv
+curl "http://127.0.0.1"
+node server.js 
+history 
+ls
+./test.exe 

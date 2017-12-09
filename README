@@ -3,7 +3,7 @@
 
 lisp  --
 
-	  init-packages     # 插件管理
+	  init-packages				 # 插件管理
 
 	  init-ui.el				# 视觉层配置
 
