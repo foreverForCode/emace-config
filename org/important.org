@@ -1,0 +1,13 @@
+* 重要的快捷键
+** 快捷键
+   <f2> -------> 打开主配置文件
+   <f3> -------> 自动重排
+** dired
+   
+   + ---              add floder
+   C-s C-f            add file
+   g                  refresh
+   c                  copy
+   d                  delete
+   u                  cancle or undo
+   R                  rename

@@ -68,6 +68,17 @@
 	  (indent-buffer)
 	  (message "indented buffer"))))
 
+;; 直接递归删除 复制 不用提示
+
+(setq dired-recursive-deletes 'always)
+
+(setq dired-recursive-copies 'always)
+
+;; 减少 buffer
+(put 'dired-find-alternate-file 'disabled nil)
+(require 'dired)
+(define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)
+
 (provide 'init-better-default)
 
 
