@@ -48,10 +48,7 @@
 
 (require 'nodejs-repl)
 
-;; 使用org
-(require 'org)
 
-(setq org-src-fontify-natively t)
 
 ;; 使用 recenf
 

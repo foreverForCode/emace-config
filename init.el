@@ -52,3 +52,5 @@
 (require 'mode-manage)
 
 (require 'init-better-default)
+
+(require 'init-org)
