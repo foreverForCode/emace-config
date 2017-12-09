@@ -53,6 +53,21 @@
 ;; ¿ªÆôÓï·¨¸ßÁÁ
 
 (global-font-lock-mode 1)
+
+(defun indent-buffer ()
+  (interactive)
+  (indent-region (point-min) (point-max))
+  )
+
+(defun indent-region-or-buffer ()
+  (interactive)
+  (if (region-active-p)
+	  (progn
+		(indent-region (region-beginning) (region-end)))
+	(progn
+	  (indent-buffer)
+	  (message "indented buffer"))))
+
 (provide 'init-better-default)
 
 
