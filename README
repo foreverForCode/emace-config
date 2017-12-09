@@ -16,3 +16,6 @@ lisp  --
 	  custom.el					# 存放 使用编辑器接口产生的配置信息
 
 	  mode-manage 				# 外部插件集中管理
+
+
+

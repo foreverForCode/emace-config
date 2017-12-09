@@ -1,0 +1,11 @@
+* org
+** org日程模式  
+*** org快捷操作方式
+	C-c C-s  设置开始时间
+	C-c C-d  设置截止时间
+	C-c C-t  切换 todo
+** org-agenda
+   C-c a     开启org-agenda
+	
+
+	  
