@@ -1,34 +1,58 @@
-((("Hidden" .
-   [0 0 1 0 0 0])
-  ("add" .
-   [2 0 0])
-  ("function-form" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("popwin" .
-   [0 0 0 0 1 1])
-  ("smartparens-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("smartparens-ml" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("password" .
-   [0 0 0 1 0 0 0 0])
-  ("phonenumber" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("setq" .
+((("Function" .
+   [0 0 0 0 1 0 0 0])
+  ("listen" .
+   [0 0 0 0 1 0])
+  ("Link" .
    [1 0 0 0])
-  ("setq-default" .
-   [0 0 0 0 0 0 1 0 0 0 0 0])
-  ("cursor-type" .
+  ("body" .
+   [1 0 0 0])
+  ("createServer" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("http" .
+   [1 0 0 0])
+  ("autopair-global-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("autopair" .
+   [0 0 0 0 0 1 0 0])
+  ("autoarg" .
+   [0 0 0 0 1 0 0])
+  ("load-path" .
+   [0 0 0 0 0 0 1 0 0])
+  ("add-to-list" .
    [0 0 0 0 0 0 0 0 1 0 0])
-  ("require" .
-   [0 0 0 0 0 0 3])
-  ("smartparens-config" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0])
-  ("smartparens-" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("smartparens-global-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("pop" .
+   [1 0 0])
   ("nodejs-repl" .
    [0 0 0 0 1 0 0 0 0 0 0])
-  ("pop" .
-   [1 0 0])))
+  ("smartparens-global-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("smartparens-" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("smartparens-config" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0])
+  ("require" .
+   [1 0 0 0 0 0 3])
+  ("cursor-type" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("setq-default" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("setq" .
+   [1 0 0 0])
+  ("phonenumber" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("password" .
+   [0 0 0 1 0 0 0 0])
+  ("smartparens-ml" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("smartparens-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("popwin" .
+   [0 0 0 0 1 1])
+  ("function-form" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("add" .
+   [2 0 0])
+  ("Hidden" .
+   [0 0 1 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])))

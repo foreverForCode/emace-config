@@ -29,6 +29,7 @@
 		monokai-theme
 		;; solarized-theme
 		popwin
+		autopair
 		) "Default packages")
 
  (setq package-selected-packages my/packages)

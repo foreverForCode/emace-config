@@ -61,5 +61,12 @@
 
 (require 'dired-x)
 
+;; autopair-global-mode
+
+(add-to-list 'load-path " ~/.emacs.d/elpa/autopair-20160304.437/autopair.el")
+
+(require 'autopair)
+
+(autopair-global-mode)
 
 (provide 'mode-manage)
