@@ -57,11 +57,11 @@
 
 (require 'recentf)
 
-(recentf-mode 1)
 
-(setq recenf-max-menu-items 25)
+(require 'popwin)
 
-(global-set-key "\C-x\ \C-r" 'recentf-open-files)
+(popwin-mode t)
+
 
 
 

@@ -10,9 +10,10 @@
 
 (setq inhibit-startup-message t)
 
-;; 用 y-or-n-p 替换 yes-or-no
+;; 关闭光标样式
 
-(fset 'yes-or-no-p 'y-or-n-p)
+(setq-default cursor-type 'bar)
+
 
 ;; 不显示菜单栏
 
@@ -26,49 +27,15 @@
 
 (scroll-bar-mode 0)
 
-;; 启动默认设置显示行号
-
-(global-linum-mode t) 
-
 ;; 设置tab为4个空格的宽度
 
 (setq default-tab-width 4)
 
-;; 开启语法高亮
-
-(global-font-lock-mode 1)
-
 ;; 设置字体和字体大小
 
 (set-default-font "Consolas-14")
-;; cua-mode
-
-(cua-mode t)
-
-;; 全局激活 company补全
-(global-company-mode 1)
-
-;; 关闭光标样式
-
-(setq-default cursor-type 'bar)
-
-;; 禁止备份文件
-
-(setq make-backup-files nil)
 
 
-;; 自动缩进
-(electric-indent-mode t)
-
-;; delete
-(delete-selection-mode t)
-;;自动匹配空格
-
-(add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
-
-;; 显示当前行
-
-(global-hl-line-mode t)
 
 
 
@@ -84,4 +51,4 @@
 
 (require 'mode-manage)
 
-
+(require 'init-better-default)

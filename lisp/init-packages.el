@@ -26,6 +26,7 @@
 		;; --- Themes ---
 		monokai-theme
 		;; solarized-theme
+		popwin
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
