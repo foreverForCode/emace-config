@@ -56,20 +56,6 @@
 
 (setq make-backup-files nil)
 
-;; 使用org
-(require 'org)
-
-(setq org-src-fontify-natively t)
-
-;; 使用 recenf
-
-(require 'recentf)
-
-(recentf-mode 1)
-
-(setq recenf-max-menu-items 25)
-
-(global-set-key "\C-x\ \C-r" 'recentf-open-files)
 
 ;; 自动缩进
 (electric-indent-mode t)
