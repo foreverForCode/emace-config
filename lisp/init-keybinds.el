@@ -34,7 +34,11 @@
 
 (global-set-key (kbd "<f3>") 'indent-region-or-buffer)
 
+(global-set-key (kbd "C-h C-f") 'find-function)
 
+(global-set-key (kbd "C-h C-v") 'find-variable)
+
+(global-set-key (kbd "C-h C-k") 'find-function-on-key)
 
 
 (provide 'init-keybinds)

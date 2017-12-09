@@ -25,6 +25,6 @@
 
 ;; 设置字体和字体大小
 
-(set-default-font "Consolas-14")
+(set-default-font "Consolas-12")
 
 (provide 'init-ui)

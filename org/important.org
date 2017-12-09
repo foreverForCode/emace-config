@@ -11,3 +11,6 @@
    d                  delete
    u                  cancle or undo
    R                  rename
+** lispbox
+   C-c C-z   -------> 调整到scbl
+   C-c C-y (important) ----->  调式工具
