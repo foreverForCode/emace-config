@@ -59,7 +59,7 @@
 
 (popwin-mode t)
 
-
+(require 'dired-x)
 
 
 (provide 'mode-manage)

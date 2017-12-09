@@ -33,4 +33,8 @@
 (global-set-key (kbd "C-c a") 'org-agenda)
 
 (global-set-key (kbd "<f3>") 'indent-region-or-buffer)
+
+
+
+
 (provide 'init-keybinds)

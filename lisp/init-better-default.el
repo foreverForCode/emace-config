@@ -3,6 +3,7 @@
 (setq make-backup-files nil)
 ;;自动匹配空格
 
+
 (add-hook 'emacs-lisp-mode-hook 'show-paren-mode)
 
 ;; 显示当前行
@@ -76,8 +77,24 @@
 
 ;; 减少 buffer
 (put 'dired-find-alternate-file 'disabled nil)
+
 (require 'dired)
+
 (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)
+
+(setq dired-dwim-target t)
+
+;; remove dos-el
+
+(defun hidden-dos-eol()
+  (interactive)
+  (setq buffer-display-table (make-display-table))
+  (aset buffer-display-table ?\^M []))
+
+(defun remove-dos-eol ()
+  (interactive)
+  (goto-char (point-min))
+  (while (search-forward "\r" nil t) (replace-match "")))
 
 (provide 'init-better-default)
 
