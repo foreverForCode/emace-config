@@ -8,3 +8,7 @@ ls
 ./test.exe 
 gcc -O test.c test
 gcc++ test.c -o test
+gcc
+gcc test.c -o test
+ls
+./test.exe 
