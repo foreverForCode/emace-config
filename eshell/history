@@ -6,3 +6,5 @@ node server.js
 history 
 ls
 ./test.exe 
+gcc -O test.c test
+gcc++ test.c -o test
