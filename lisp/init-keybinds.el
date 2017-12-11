@@ -40,5 +40,13 @@
 
 (global-set-key (kbd "C-h C-k") 'find-function-on-key)
 
+(global-set-key (kbd "M-s o") 'occur-dwim)
+
+(global-set-key (kbd "M-s e") 'iedit)
+
+(global-set-key (kbd "M-s i") 'counsel-imenu)
+
+(global-set-key (kbd "C-=") 'er/expand-region)
+
 
 (provide 'init-keybinds)

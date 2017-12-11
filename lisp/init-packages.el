@@ -31,6 +31,8 @@
 		popwin
 		autopair
 		emmet-mode
+		expand-region
+		iedit
 		) "Default packages")
 
  (setq package-selected-packages my/packages)

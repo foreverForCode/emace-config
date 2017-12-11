@@ -78,7 +78,11 @@
 (add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
 (add-hook 'html-mode-hook 'emmet-mode)
 (add-hook 'css-mode-hook  'emmet-mode)
+(add-hook 'js-mode-hook  'emmet-mode)
+(add-hook 'js-mode-hook 'js2-mode)
 
+(require 'expand-region)
 
+(require 'iedit)
 
 (provide 'mode-manage)
