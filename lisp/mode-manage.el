@@ -83,6 +83,6 @@
 
 (require 'expand-region)
 
-(require 'iedit)
+;;(require 'iedit)
 
 (provide 'mode-manage)
