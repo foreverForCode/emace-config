@@ -69,4 +69,15 @@
 
 (autopair-global-mode)
 
+;; add emmet-mode
+
+(add-to-list 'load-path " ~/.emacs.d/elpa/emmet-mode-20161113.2158/emmet-mode.el")
+
+(require 'emmet-mode)
+
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'html-mode-hook 'emmet-mode)
+(add-hook 'css-mode-hook  'emmet-mode)
+
+
 (provide 'mode-manage)

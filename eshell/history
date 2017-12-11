@@ -12,3 +12,5 @@ gcc
 gcc test.c -o test
 ls
 ./test.exe 
+git clone https://github.com/nginx/nginx.git
+lua

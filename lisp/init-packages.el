@@ -30,6 +30,7 @@
 		;; solarized-theme
 		popwin
 		autopair
+		emmet-mode
 		) "Default packages")
 
  (setq package-selected-packages my/packages)
