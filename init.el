@@ -9,6 +9,7 @@
 
 ;; package management
 ;;-------------------------------
+(require 'unicad)
 
 (require 'init-ui)
 
