@@ -50,4 +50,6 @@
 
 (global-set-key (kbd "M-s r") 'rename-buffer)
 
+(global-set-key (kbd "M-s h") 'global-font-lock-mode)
+
 (provide 'init-keybinds)

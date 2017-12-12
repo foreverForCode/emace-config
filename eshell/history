@@ -14,5 +14,10 @@ ls
 ./test.exe 
 git clone https://github.com/nginx/nginx.git
 lua
-live-server
-live-server
+git fetch origin 
+git merge origin/master
+exit
+git clone https://github.com/foreverForCode/slidedit.git
+ks
+cd slidedit/
+ls

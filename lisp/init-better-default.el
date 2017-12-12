@@ -53,7 +53,7 @@
 
 ;; ¿ªÆôÓï·¨¸ßÁÁ
 
-(global-font-lock-mode t)
+(global-font-lock-mode 1)
 
 (defun indent-buffer ()
   (interactive)
