@@ -25,6 +25,7 @@
 
 ;; 设置字体和字体大小
 
-(set-default-font "Consolas-12")
+;; ---------------------------------------------------------------------------Kaiti SC" to "Microsoft YaHei" or other fonts  
 
 (provide 'init-ui)
+

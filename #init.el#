@@ -1,0 +1,45 @@
+;; ‘²»‘ÏÔ‘Ê¾GNU emacs‘Æô‘¶¯‘½ç‘Ãæ
+
+(setq inhibit-startup-message t)
+
+;; ‘¹Ø‘±Õ‘¹â‘±ê‘Ñù‘Ê½
+
+(setq-default cursor-type 'bar)
+
+
+;; ‘²»‘ÏÔ‘Ê¾‘²Ë‘µ¥‘À¸
+
+(menu-bar-mode 0)
+
+;; ‘²»‘ÏÔ‘Ê¾‘¹¤‘¾ß‘À¸
+
+(tool-bar-mode 0)
+
+;; ‘²»‘ÏÔ‘Ê¾‘¹ö‘¶¯‘Ìõ
+
+(scroll-bar-mode 0)
+
+;; ‘Éè‘ÖÃtab‘Îª4‘¸ö‘¿Õ‘¸ñ‘µÄ‘¿í‘¶È
+
+(setq default-tab-width 4)
+
+;; ‘Éè‘ÖÃ‘×Ö‘Ìå‘ºÍ‘×Ö‘Ìå‘´ó‘Ð¡
+
+;;(set-default-font "Consolas-12")
+
+;; ‘Ìí‘¼Ócommon lisp ‘µÄ ‘¿ª‘·¢‘»·‘¾³
+
+(setq inferior-lisp-program "/usr/local/Cellar/sbcl/")
+(add-to-list 'load-path "~/Downloads/slime-2.20")
+(require 'slime)
+(slime-setup)
+(require 'slime-autoloads)
+
+(slime-setup '(slime-fancy));;‘ÈÃslime‘±ä‘µÃ‘¸ü‘ºÃ‘¿´‘£¬‘±È‘Èç‘°Ñsbcl‘µÄ*‘±ä‘³ÉCL-USER>
+
+
+
+(provide 'init-ui)
+
+
+

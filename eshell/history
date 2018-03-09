@@ -1,26 +1,22 @@
 ls
-gcc
-mv
-curl "http://127.0.0.1"
-node server.js 
-history 
+node .\#test.js 
+node test.js 
 ls
-./test.exe 
-gcc -O test.c test
-gcc++ test.c -o test
-gcc
-gcc test.c -o test
+javac Hello.java 
+java Hello
+rm Hello.java
+rm Hello.class 
 ls
-./test.exe 
-git clone https://github.com/nginx/nginx.git
-lua
-git fetch origin 
-git merge origin/master
+ls
+ls
+node
+node 
+exir
 exit
-git clone https://github.com/foreverForCode/slidedit.git
-ks
-cd slidedit/
 ls
-live-server
-node server.js 
-http-server
+rm init.el
+ls
+rm init.el\~ 
+ls
+rm #init.el#
+ls
