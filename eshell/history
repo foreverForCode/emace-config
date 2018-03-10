@@ -20,3 +20,16 @@ rm init.el\~
 ls
 rm #init.el#
 ls
+cd ../
+git add .
+git status
+ls
+touch .gitignore
+vi .gitignore 
+emacs .gitignore 
+cat .gitignore 
+git add .
+git status
+ls
+git commit -m "add fonts"
+git push origin master
