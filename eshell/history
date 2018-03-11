@@ -33,3 +33,16 @@ git status
 ls
 git commit -m "add fonts"
 git push origin master
+git status
+cd ../
+git remote -v
+git branch
+git add .
+git statua
+git status
+git add .
+git commit -m "add font set config"
+git push origin master
+whice
+which
+ls
