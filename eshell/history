@@ -46,3 +46,73 @@ git push origin master
 whice
 which
 ls
+cd ../
+git add .
+git status
+git commit -m "md ui font-size from 13 to 14"
+git push origin master
+ls
+cd Documents/
+ls
+mkdir minrouter
+zsh
+zsh
+ls
+live-server 
+zsh
+ls
+live-server
+ls
+zsh
+git log
+git status
+git reset --hard HEAD^
+git status
+rm -l -r elpa/o-blog-20151202.1539/
+rm -l -r elpa/o-blog-20151202.1539
+man rm
+rm -f -r elpa/o-blog-20151202.1539
+git status
+pwd
+git reset --hard HEAD^
+git status
+rm -f -r elpa/el-get-20180126.1603
+git status
+git log
+git reset --hard f689e63d31f9dd8fdd19d6e66b63f23f93682a0f
+git staus
+git status
+mkdir sites
+cd sites/
+touch example.com
+ls
+rm example.com 
+mkdir example.com
+cd example.com/
+ls
+cd ~/.emacs.d/
+git log
+git reset --hard f689e63d31f9dd8fdd19d6e66b63f23f93682a0f
+git status
+rm -f -r el-get
+rm network-security.data 
+git status
+git add .
+git statua
+git status
+git commit -m "modify font"
+git log
+git push origin master
+git remote -v
+git fetch
+git branch -r
+git push origin master
+git merge origin/master
+ls
+cd lisp/
+ls
+ls -l
+git status
+git merge origin --abort
+git push origin
+cd ../
