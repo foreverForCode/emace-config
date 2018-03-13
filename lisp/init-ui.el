@@ -32,9 +32,15 @@
   (set-fontset-font (frame-parameter nil 'font)
                     charset
                     (font-spec :family "Kaiti SC" :size 14)))
+<<<<<<< HEAD
 
 
 ;; ---------------------------------------------------------------------------Kaiti SC" to "Microsoft YaHei" or other fonts  
+=======
+;; Note: you can chang "Kaiti SC" to "Microsoft YaHei" or other fonts
+
+;; ---Kaiti SC" to "Microsoft YaHei" or other fonts  
+>>>>>>> origin/master
 
 (provide 'init-ui)
 
